@@ -1,8 +1,29 @@
+html{
+    text-align: center;
+}
 p {
     font-size: large;
-
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: aqua;
 }
-
+#name{
+    color: chocolate;
+}
 span{
     font-style: italic;
+    background-color: aqua;
+}
+
+.center{
+    margin:0 auto;
+    background-color: blueviolet;
+    padding: 1em;
+    
+}
+
+.block {
+    display: inline-block;
+    text-align: center;
 }
