@@ -1,15 +1,16 @@
 header {
-    max-width: 100%;
-    max-height: 100%;
-    padding-top: .01em;
+    flex: 0 0 auto;
+
     margin: 0;
     text-align: center;
     background-color: lightblue;
+    font-size:5em;
 }
 
-h1{
-    font-size: xx-large;
+.wrapper{
+    flex: 1 1 auto;
 }
+
 
 body{
     max-height: 100%;
