@@ -1,13 +1,34 @@
 header {
-    text-align: center;
-    background-color: lightblue;
-    padding: 10px;
-    margin: 0px;
-}
-
-body {
     max-width: 100%;
     max-height: 100%;
+    padding-top: .01em;
+    margin: 0;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+body{
+    max-height: 100%;
+    max-width: 100%;
     margin: 0;
     padding: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+}
+
+#navbar a {
+    margin: 0;
+    padding: 0 1em;
+    background-color: burlywood;
+    width: 33%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
